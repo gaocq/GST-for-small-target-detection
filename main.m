@@ -34,7 +34,7 @@ h = Ffilter(-2, sigma2, filterSize);
 
 strReadDir = './images/';
 strSaveDir = './results/';
-files = {'01.bmp', '02.bmp', '03.bmp', '04.bmp'};
+files = {'01.bmp', '02.bmp'};
 for index = 1:length(files)
     I = imread([strReadDir files{index}]);
     [m n] = size(I);
@@ -65,4 +65,5 @@ for index = 1:length(files)
     imwrite(mat2gray(revised_Ct), [strSaveDir 'certainty/' files{index}]);
     imwrite(bw, [strSaveDir 'segmentation/' files{index}]);
 end
+% saveas(gcf, 'doc/result.png');
 
