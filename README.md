@@ -25,3 +25,5 @@ Email: gaochenqiang@gmail.com *or* gaocq@cqupt.edu.cn
 Copyright: Chongqing University of Posts and Telecommunications  
 ## License
 This code is only freely available for non-commercial research use. If you have other purpose, please contact me.
+
+If you find some help for you, star is a good reward ^_^. 
